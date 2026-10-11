@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://spicesouk.pages.dev/sitemap.xml
+Sitemap: https://raw.githubusercontent.com/soukthespice660-cmyk/the-spice-souk/main/public/sitemap.xml
