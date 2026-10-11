@@ -1,0 +1,523 @@
+[
+  {
+    "key": "pasta",
+    "title": "File:Pâte the Tunisian way.jpg",
+    "author": "IssamBarhoumi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:P%C3%A2te_the_Tunisian_way.jpg",
+    "modified": "Resized and converted to WebP; displayed with responsive cropping."
+  },
+  {
+    "key": "mechouiya",
+    "title": "File:SaladeMechouia 2013.JPG",
+    "author": "Citizen59",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SaladeMechouia_2013.JPG",
+    "modified": "Resized and converted to WebP; displayed with responsive cropping."
+  },
+  {
+    "key": "kafteji",
+    "title": "File:Kafteji 1.jpg",
+    "author": "Touzrimounir",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kafteji_1.jpg",
+    "modified": "Resized and converted to WebP; displayed with responsive cropping."
+  },
+  {
+    "key": "tajin",
+    "title": "File:Tajine tunisien, 2019.jpg",
+    "author": "Habib M'henni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tajine_tunisien,_2019.jpg",
+    "modified": "Resized and converted to WebP; displayed with responsive cropping."
+  },
+  {
+    "key": "brik",
+    "title": "File:Brik tunisien, mai 2020.jpg",
+    "author": "Habib M'henni",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brik_tunisien,_mai_2020.jpg",
+    "modified": "Resized and converted to WebP; displayed with responsive cropping."
+  },
+  {
+    "key": "salad",
+    "title": "File:Tunisian salad.jpg",
+    "author": "Shoestring",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tunisian_salad.jpg",
+    "modified": "Resized and converted to WebP; displayed with responsive cropping."
+  },
+  {
+    "key": "kamouniya",
+    "title": "File:Plat de kamounia au restaurant tunisien Sidi Bou, à Villeurbanne (juil 2022).jpg",
+    "author": "Sebleouf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Plat_de_kamounia_au_restaurant_tunisien_Sidi_Bou,_%C3%A0_Villeurbanne_(juil_2022).jpg",
+    "modified": "Resized and converted to WebP; displayed with responsive cropping."
+  },
+  {
+    "key": "couscous",
+    "title": "File:Couscous traditionnel Tunisie.JPG",
+    "author": "Mohatatou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Couscous_traditionnel_Tunisie.JPG",
+    "modified": "Resized and converted to WebP; displayed with responsive cropping."
+  },
+  {
+    "key": "couscous-chicken",
+    "title": "File:Plat de couscous au poulet, Tunisie, janvier 2017.jpg",
+    "author": "Habib M'henni",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Plat_de_couscous_au_poulet,_Tunisie,_janvier_2017.jpg",
+    "modified": "Resized and converted to WebP; displayed with responsive cropping."
+  },
+  {
+    "provider": "Mercadona",
+    "licenseUrl": "https://tienda.mercadona.es/product/27502/refresco-fanta-naranja-lata",
+    "license": "Brand product image",
+    "modified": "Resized to WebP. Packaging reference; no endorsement implied.",
+    "key": "fanta-orange-can",
+    "author": "Mercadona / respective brand",
+    "title": "Refresco Fanta naranja",
+    "source": "https://tienda.mercadona.es/product/27502/refresco-fanta-naranja-lata"
+  },
+  {
+    "provider": "Mercadona",
+    "licenseUrl": "https://tienda.mercadona.es/product/67940/refresco-te-sabor-limon-hacendado-lata",
+    "license": "Brand product image",
+    "modified": "Resized to WebP. Packaging reference; no endorsement implied.",
+    "key": "iced-tea-lemon-can",
+    "author": "Mercadona / respective brand",
+    "title": "Refresco té sabor limón",
+    "source": "https://tienda.mercadona.es/product/67940/refresco-te-sabor-limon-hacendado-lata"
+  },
+  {
+    "provider": "Mercadona",
+    "licenseUrl": "https://tienda.mercadona.es/product/27326/refresco-coca-cola-lata",
+    "license": "Brand product image",
+    "modified": "Resized to WebP. Packaging reference; no endorsement implied.",
+    "key": "coca-cola-can",
+    "author": "Mercadona / respective brand",
+    "title": "Refresco Coca-Cola",
+    "source": "https://tienda.mercadona.es/product/27326/refresco-coca-cola-lata"
+  },
+  {
+    "provider": "Mercadona",
+    "licenseUrl": "https://tienda.mercadona.es/product/11691/refresco-te-sabor-limon-fuze-tea-lata",
+    "license": "Brand product image",
+    "modified": "Resized to WebP. Packaging reference; no endorsement implied.",
+    "key": "fuze-tea-can",
+    "author": "Mercadona / respective brand",
+    "title": "Refresco té sabor limón Fuze Tea",
+    "source": "https://tienda.mercadona.es/product/11691/refresco-te-sabor-limon-fuze-tea-lata"
+  },
+  {
+    "provider": "Mercadona",
+    "licenseUrl": "https://tienda.mercadona.es/product/27602/refresco-fanta-limon-lata",
+    "license": "Brand product image",
+    "modified": "Resized to WebP. Packaging reference; no endorsement implied.",
+    "key": "fanta-lemon-can",
+    "author": "Mercadona / respective brand",
+    "title": "Refresco Fanta limón",
+    "source": "https://tienda.mercadona.es/product/27602/refresco-fanta-limon-lata"
+  },
+  {
+    "provider": "Mercadona",
+    "licenseUrl": "https://tienda.mercadona.es/product/29360/refresco-coca-cola-botella",
+    "license": "Brand product image",
+    "modified": "Resized to WebP. Packaging reference; no endorsement implied.",
+    "key": "coca-cola-500",
+    "author": "Mercadona / respective brand",
+    "title": "Refresco Coca-Cola",
+    "source": "https://tienda.mercadona.es/product/29360/refresco-coca-cola-botella"
+  },
+  {
+    "provider": "Mercadona",
+    "licenseUrl": "https://tienda.mercadona.es/product/27845/refresco-lima-limon-sprite-lata",
+    "license": "Brand product image",
+    "modified": "Resized to WebP. Packaging reference; no endorsement implied.",
+    "key": "sprite-can",
+    "author": "Mercadona / respective brand",
+    "title": "Refresco lima limón Sprite",
+    "source": "https://tienda.mercadona.es/product/27845/refresco-lima-limon-sprite-lata"
+  },
+  {
+    "key": "product-couscous",
+    "title": "Couscous.png",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-mechouiya",
+    "title": "Salade Mechouiya.jpg",
+    "author": "@diariestunisien",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-brik",
+    "title": "Brik.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-riz-djerbien",
+    "title": "Riz djerbien.jpg",
+    "author": "Visible source mark: Marwa Ben Ali",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-kafteji-sandwich",
+    "title": "Kafteji Sandwich.jpg",
+    "author": "@meryem_hmila_life",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-libanaise",
+    "title": "Libanaise.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-ojja",
+    "title": "Ojja.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-pasta",
+    "title": "Pasta..jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-salad",
+    "title": "Salade Tunisienne.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-tajin",
+    "title": "Tajin.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-dark-couscous",
+    "title": "Couscous.png",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "Original owner-supplied photograph, resized to WebP; no AI food or background edit."
+  },
+  {
+    "key": "product-dark-mechouiya",
+    "title": "Salade Mechouiya.jpg",
+    "author": "@diariestunisien",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted dark background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-dark-brik",
+    "title": "Brik.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted dark background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-dark-riz-djerbien",
+    "title": "Riz djerbien.jpg",
+    "author": "Visible source mark: Marwa Ben Ali",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted dark background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-dark-kafteji-sandwich",
+    "title": "Kafteji Sandwich.jpg",
+    "author": "@meryem_hmila_life",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted dark background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-dark-libanaise",
+    "title": "Libanaise.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted dark background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-dark-ojja",
+    "title": "Ojja.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted dark background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-dark-pasta",
+    "title": "Pasta..jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted dark background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-dark-salad",
+    "title": "Salade Tunisienne.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted dark background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-dark-tajin",
+    "title": "Tajin.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted dark background and lighting standardisation; resized to WebP. Illustrative photo, not a guarantee of portion or presentation."
+  },
+  {
+    "key": "product-woven-chorba-frik",
+    "title": "Chorba Frik.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted background replacement using the natural woven mat beneath the supplied Chorba bowl; resized to WebP. Illustrative photo; presentation may vary."
+  },
+  {
+    "key": "product-woven-kamouniya",
+    "title": "Kamouniya.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted background replacement using the natural woven mat beneath the supplied Chorba bowl; resized to WebP. Illustrative photo; presentation may vary."
+  },
+  {
+    "key": "coca-cola-zero-can",
+    "title": "Coca-Cola Zero Sugar — Can · 330 ml",
+    "author": "Manufacturer product image",
+    "provider": "Mercadona online catalogue",
+    "license": "Product image; no open reuse license specified",
+    "licenseUrl": null,
+    "source": "https://tienda.mercadona.es/product/27414/refresco-coca-cola-zero-azucar-lata",
+    "modified": "Resized to WebP. Published format verified against Mercadona product listing."
+  },
+  {
+    "key": "coca-cola-zero-500",
+    "title": "Coca-Cola Zero Sugar — Bottle · 500 ml",
+    "author": "Manufacturer product image",
+    "provider": "Mercadona online catalogue",
+    "license": "Product image; no open reuse license specified",
+    "licenseUrl": null,
+    "source": "https://tienda.mercadona.es/product/29361/refresco-coca-cola-zero-azucar-botella",
+    "modified": "Resized to WebP. Published format verified against Mercadona product listing."
+  },
+  {
+    "key": "coca-cola-zero-caffeine-free-can",
+    "title": "Coca-Cola Zero Sugar, Caffeine Free — Can · 330 ml",
+    "author": "Manufacturer product image",
+    "provider": "Mercadona online catalogue",
+    "license": "Product image; no open reuse license specified",
+    "licenseUrl": null,
+    "source": "https://tienda.mercadona.es/product/27559/refresco-coca-cola-zero-zero-lata",
+    "modified": "Resized to WebP. Published format verified against Mercadona product listing."
+  },
+  {
+    "key": "iced-tea-green-zero-can",
+    "title": "Zero Green Tea — Can · 330 ml",
+    "author": "Manufacturer product image",
+    "provider": "Mercadona online catalogue",
+    "license": "Product image; no open reuse license specified",
+    "licenseUrl": null,
+    "source": "https://tienda.mercadona.es/product/21828/refresco-te-verde-sabor-maracuya-mango-hacendado-lata",
+    "modified": "Resized to WebP. Published format verified against Mercadona product listing."
+  },
+  {
+    "key": "product-woven-couscous",
+    "title": "Couscous.png",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted fine woven background replacement; resized to WebP. Illustrative food photo; portions and presentation may vary."
+  },
+  {
+    "key": "product-woven-pasta",
+    "title": "Pasta..jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted fine woven background replacement; resized to WebP. Illustrative food photo; portions and presentation may vary."
+  },
+  {
+    "key": "product-woven-riz-djerbien",
+    "title": "Riz djerbien.jpg",
+    "author": "Visible source mark: Marwa Ben Ali",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted fine woven background replacement; resized to WebP. Illustrative food photo; portions and presentation may vary."
+  },
+  {
+    "key": "product-woven-ojja",
+    "title": "Ojja.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted fine woven background replacement; resized to WebP. Illustrative food photo; portions and presentation may vary."
+  },
+  {
+    "key": "product-woven-kafteji-sandwich",
+    "title": "Kafteji Sandwich.jpg",
+    "author": "@meryem_hmila_life",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted fine woven background replacement; resized to WebP. Illustrative food photo; portions and presentation may vary."
+  },
+  {
+    "key": "product-woven-tajin",
+    "title": "Tajin.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted fine woven background replacement; resized to WebP. Illustrative food photo; portions and presentation may vary."
+  },
+  {
+    "key": "product-woven-salad",
+    "title": "Salade Tunisienne.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted fine woven background replacement; resized to WebP. Illustrative food photo; portions and presentation may vary."
+  },
+  {
+    "key": "product-woven-mechouiya",
+    "title": "Salade Mechouiya.jpg",
+    "author": "@diariestunisien",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted fine woven background replacement; resized to WebP. Illustrative food photo; portions and presentation may vary."
+  },
+  {
+    "key": "product-woven-brik",
+    "title": "Brik.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted fine woven background replacement; resized to WebP. Illustrative food photo; portions and presentation may vary."
+  },
+  {
+    "key": "product-woven-libanaise",
+    "title": "Libanaise.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted fine woven background replacement; resized to WebP. Illustrative food photo; portions and presentation may vary."
+  },
+  {
+    "key": "product-woven-loubia",
+    "title": "Loubia.jpg",
+    "author": "Not specified in supplied file",
+    "provider": "Owner-supplied reference",
+    "license": "Source rights information not supplied",
+    "licenseUrl": null,
+    "source": null,
+    "modified": "AI-assisted fine woven background and lighting harmonisation; resized to WebP. Illustrative photo; portions and presentation may vary."
+  }
+]

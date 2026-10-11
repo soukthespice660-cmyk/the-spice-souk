@@ -1,0 +1,12 @@
+import { createRequire } from 'node:module';
+import { writeFile } from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const require=createRequire(import.meta.url);
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+const axePath=require.resolve('axe-core/axe.min.js');
+const browser=await chromium.launch({headless:true,channel:'chrome'});
+const results=[];
+try{const page=await browser.newPage({bypassCSP:true,viewport:{width:360,height:800}});await page.goto('http://127.0.0.1:4173');await page.locator('.food-card').first().waitFor();
+  const audit=async(name)=>{await page.addScriptTag({path:axePath});const r=await page.evaluate(async()=>window.axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']}}));results.push({name,violations:r.violations.map(v=>({id:v.id,impact:v.impact,description:v.description,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))}))});console.log(`${name}: ${r.violations.length} accessibility violations`);};
+  await audit('mobile catalogue');await page.getByRole('button',{name:'Choose options — Kafteji',exact:true}).click();await audit('product options');await page.getByRole('radio',{name:/Sandwich/}).check();await page.locator('#product-dialog').getByRole('button',{name:'Add to bag',exact:true}).click();await page.getByRole('button',{name:'My bag 1 — open bag, 1 items',exact:true}).click();await page.getByRole('radio',{name:'Delivery',exact:true}).check();await audit('cart and delivery checkout');await page.screenshot({path:'artifacts/cart-360.png',fullPage:true});await page.getByRole('button',{name:'Increase quantity of Kafteji (Sandwich)',exact:true}).click();assert.equal(await page.evaluate(()=>document.activeElement.getAttribute('aria-label')),'Increase quantity of Kafteji (Sandwich)','Quantity updates must preserve keyboard focus');await page.keyboard.press('Escape');await page.setViewportSize({width:1280,height:900});await audit('desktop catalogue');await page.goto('http://127.0.0.1:4173/credits.html');await page.locator('.credit-item').first().waitFor();await audit('photo credits');await writeFile('artifacts/accessibility-results.json',JSON.stringify(results,null,2));assert.equal(results.reduce((n,r)=>n+r.violations.length,0),0,JSON.stringify(results.filter(r=>r.violations.length)));console.log('Five accessibility scans and cart keyboard focus checks passed.');
+}finally{await browser.close();}

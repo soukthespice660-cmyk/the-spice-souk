@@ -1,0 +1,12 @@
+node_modules/
+dist/
+artifacts/
+public/assets/*-original.jpg
+.openai/
+.env
+.env.*
+!.env.example
+.wrangler/
+__pycache__/
+*.pyc
+scripts/create-launch-reel*.py

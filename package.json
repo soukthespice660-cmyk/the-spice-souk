@@ -1,0 +1,15 @@
+{
+  "name": "the-spice-souk",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test tests/order.test.mjs tests/whatsapp-links.test.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "axe-core": "4.14.0",
+    "lighthouse": "13.5.0"
+  }
+}

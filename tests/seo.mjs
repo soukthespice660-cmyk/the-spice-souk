@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import { MENU } from '../public/menu.mjs';
+import { localizedMenu } from '../public/locale.mjs';
+import { CONFIG } from '../public/config.mjs';
+import { SEO } from '../public/i18n.mjs';
+for(const lang of ['en','es','fr','tn']){
+  const html=await readFile(`dist/${lang}/index.html`,'utf8');
+  assert.equal((html.match(/rel="canonical"/g)||[]).length,1);
+  assert.ok(html.includes(`rel="canonical" href="${CONFIG.siteUrl}/${lang}/"`));
+  assert.ok(html.includes(`hreflang="ar-TN" href="${CONFIG.siteUrl}/tn/"`));
+  assert.ok(!html.includes('hreflang="aeb"'));
+  assert.ok(!html.includes('netlify.app'));
+  assert.ok(html.includes('google-site-verification'));
+  assert.equal((html.match(/<article class="food-card">/g)||[]).length,MENU.length);
+  for(const item of localizedMenu(MENU,lang))assert.ok(html.includes(`<h3>${item.name}</h3>`),`${lang} missing ${item.id}`);
+  const schema=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
+  const organization=schema['@graph'].find(node=>node['@type']==='Organization');
+  assert.equal(organization.telephone,'+34624052575');
+  assert.equal(organization.sameAs.length,2);
+  assert.ok(!organization.address,'No fabricated business address');
+  const menu=schema['@graph'].find(node=>node['@type']==='Menu');
+  const items=menu.hasMenuSection.flatMap(section=>section.hasMenuItem);
+  assert.equal(items.length,MENU.length);
+  assert.deepEqual(items.find(item=>item.name===localizedMenu(MENU,lang).find(item=>item.id==='couscous').name).offers.map(offer=>offer.price),['20.00','18.00','15.00']);
+  assert.ok(html.includes(SEO[lang].related));
+  console.log(`${lang}: static menu, truthful prices, metadata, social identity and language alternates verified`);
+}
+assert.equal(await readFile('dist/index.html','utf8'),await readFile('dist/en/index.html','utf8'),'Root shares English canonical');
+assert.ok((await readFile('dist/404.html','utf8')).includes('content="noindex"'));
