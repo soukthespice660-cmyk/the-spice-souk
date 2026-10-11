@@ -26,6 +26,5 @@ for(const code of Object.keys(LANGUAGES)){
     if(code==='en'&&page==='index.html')await writeFile(new URL('../dist/index.html',import.meta.url),html);
   }
 }
-await writeFile(new URL('../dist/sitemap.xml',import.meta.url),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${Object.keys(LANGUAGES).map(code=>`<url><loc>${CONFIG.siteUrl}/${code}/</loc></url>`).join('')}</urlset>`);
 await writeFile(new URL('../dist/404.html',import.meta.url),`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>404 | The Spice Souk</title><link rel="stylesheet" href="/style.css"></head><body><main class="local-cuisine wrap"><h1>404</h1><nav class="locale-links" aria-label="Language"><a href="/en/" lang="en">English</a><a href="/es/" lang="es">Español</a><a href="/fr/" lang="fr">Français</a><a href="/tn/" lang="aeb">تونسي</a></nav></main></body></html>`);
 console.log('Static catalogue built. No publication performed.');
