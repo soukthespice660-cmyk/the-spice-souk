@@ -5,7 +5,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "lint": "node scripts/lint.mjs",
-    "test": "node --test tests/order.test.mjs tests/whatsapp-links.test.mjs",
+    "test": "node --test tests/order.test.mjs tests/whatsapp-links.test.mjs tests/analytics.test.mjs",
     "start": "node scripts/serve.mjs"
   },
   "devDependencies": {
